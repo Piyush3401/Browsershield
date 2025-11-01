@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  background: #181f2c;
+  color: #e0e6f8;
+  font-family: 'Inter', 'Roboto', Arial, sans-serif;
+}
+.container {
+  min-width: 310px;
+  max-width: 380px;
+  margin: 0 auto;
+  padding: 20px 18px 18px 18px;
+}
+h1 {
+  margin: 0 0 8px 0;
+  font-size: 1.5em;
+  color: #7ee5a9;
+  letter-spacing: 1px;
+  text-align: center;
+}
+.banner {
+  margin-bottom: 10px;
+  min-height: 24px;
+  color: #84e7a2;
+  text-align: center;
+  font-weight: 500;
+  transition: color .2s;
+}
+.action-btn, .send-btn {
+  width: 100%;
+  padding: 11px 0;
+  margin-bottom: 11px;
+  background: #3588e3;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  font-size: 1em;
+  transition: background .15s;
+  cursor: pointer;
+  box-shadow: 0 2px 7px rgba(34, 92, 192, 0.09);
+}
+.action-btn:hover, .send-btn:hover {
+  background: #2356a6;
+}
+.pubkey, .msg {
+  width: 100%;
+  padding: 9px;
+  font-size: .99em;
+  border-radius: 6px;
+  border: none;
+  background: #232c42;
+  color: #e0e6f8;
+  margin-bottom: 10px;
+  resize: none;
+  box-sizing: border-box;
+}
+.pubkey {
+  height: 46px;
+}
+.msg {
+  height: 42px;
+}
+.encrypted {
+  min-height: 44px;
+  background: #24314b;
+  color: #7ee5a9;
+  font-family: 'Fira Mono', 'Menlo', 'Consolas', monospace;
+  font-size: .97em;
+  overflow-x: auto;
+  border: 1px solid #33497c;
+  padding: 7px;
+  border-radius: 5px;
+  margin-bottom: 4px;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+.sec-line {
+  height: 2px;
+  background: #284071;
+  margin: 18px 0;
+  border-radius: 1px;
+}

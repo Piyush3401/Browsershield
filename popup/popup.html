@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>BrowserShield Quantum Popup</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>BrowserShield</h1>
+    <div id="banner" class="banner"></div>
+
+    <button id="genKeyBtn" class="action-btn">Generate Quantum Keypair</button>
+    <textarea id="userPubKey" class="pubkey" placeholder="Your Public Key" readonly></textarea>
+    <textarea id="serverPubKey" class="pubkey" placeholder="Paste Server Public Key"></textarea>
+    <button id="startSessionBtn" class="action-btn">Establish Secure Session</button>
+    
+    <div class="sec-line"></div>
+    
+    <textarea id="plainMsg" class="msg" placeholder="Type your message..."></textarea>
+    <button id="encryptBtn" class="send-btn">Encrypt &amp; Send</button>
+    <pre id="encryptedMsg" class="msg encrypted" placeholder="Encrypted message"></pre>
+
+    <div class="sec-line"></div>
+    <h2>Decrypt Encrypted Message</h2>
+    <textarea id="decryptInput" class="msg" placeholder="Paste encrypted JSON..."></textarea>
+    <button id="decryptBtn" class="action-btn">Decrypt</button>
+    <pre id="decryptedMsg" class="msg decrypted" placeholder="Decrypted message"></pre>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>

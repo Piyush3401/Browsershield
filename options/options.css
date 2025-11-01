@@ -1,0 +1,22 @@
+body, html { transition: background .19s, color .19s; }
+body.theme-dark { background: #181f2c; color: #e0e6f8; }
+body.theme-dark .container { background: #222942; color: #e0e6f8; }
+body.theme-light { background: #f7f8fa; color: #192027; }
+body.theme-light .container { background: #f3fafd; color: #212635; }
+h1 { margin-bottom: 18px; font-size: 1.7em; text-align: center; }
+body.theme-light h1 { color: #12b37f; }
+body.theme-dark h1 { color: #7ee5a9; }
+.container { max-width: 420px; margin: 32px auto; padding: 24px; border-radius: 12px; }
+.section { margin-bottom: 21px; }
+label { display: block; margin-bottom: 7px; }
+select, input[type=number], button {
+  padding: 8px 13px; width: 100%; border-radius: 7px; font-size: 1em;
+  background: #24314b; color: #e0e6f8; border: 1px solid #33509c;
+  margin-bottom: 7px; box-sizing: border-box;
+}
+body.theme-light select, body.theme-light input[type=number], body.theme-light button {
+  background: #e0eff9; color: #212635; border-color: #a3c5f0;
+}
+button { cursor: pointer; font-weight: 500; transition: background .16s; }
+button:hover { background: #2356a6; }
+span { margin-left: 8px; font-size: 0.97em; color: #74e087; font-weight: 500; }
